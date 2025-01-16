@@ -4,7 +4,7 @@ This library provides automatic endpoint registration for .NET Minimal API, elim
 
 [![GithubActions](https://github.com/Adolfok3/autoregisterendpoints/actions/workflows/main.yml/badge.svg)](https://github.com/Adolfok3/autoregisterendpoints/actions)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/Adolfok3/autoregisterendpoints/badge.svg?branch=main)](https://coveralls.io/github/Adolfok3/autoregisterendpoints?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/Adolfok3/AutoRegisterEndpoints/badge.svg?branch=main)](https://coveralls.io/github/Adolfok3/AutoRegisterEndpoints?branch=main)
 [![NuGet Version](https://img.shields.io/nuget/vpre/autoregisterendpoints)](https://www.nuget.org/packages/autoregisterendpoints)
 
 ## Installation
