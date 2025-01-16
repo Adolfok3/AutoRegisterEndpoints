@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>1.0.0</Version>
+        <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Title>AutoRegisterEndpoints</Title>
+        <Authors>Adolfok3</Authors>
+        <Copyright>MIT</Copyright>
+        <PackageProjectUrl>https://www.nuget.org/packages/AutoRegisterEndpoints</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/Adolfok3/AutoRegisterEndpoints</RepositoryUrl>
+        <Description>A simple and lightweight .NET package designed to streamline HttpClient authenticated requests</Description>
+        <PackageTags>dotnet;c#;.net;core;csharp;lib;library;api;webapi;rest;endpoint;minimal;minimal-api;register;registration;auto;di;map;</PackageTags>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <NuGetAudit>true</NuGetAudit>
+        <NuGetAuditMode>all</NuGetAuditMode>
+        <NuGetAuditLevel>moderate</NuGetAuditLevel>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
+
+</Project>
