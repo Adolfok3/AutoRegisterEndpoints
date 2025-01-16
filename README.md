@@ -2,6 +2,11 @@
 
 This library provides automatic endpoint registration for .NET Minimal API, eliminating the need to manually map endpoints in the `Program.cs` file. By using this library, you can streamline the process of setting up your API endpoints, making your code cleaner and more maintainable.
 
+[![GithubActions](https://github.com/Adolfok3/autoregisterendpoints/actions/workflows/main.yml/badge.svg)](https://github.com/Adolfok3/autoregisterendpoints/actions)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/Adolfok3/autoregisterendpoints/badge.svg?branch=main)](https://coveralls.io/github/Adolfok3/autoregisterendpoints?branch=main)
+[![NuGet Version](https://img.shields.io/nuget/vpre/autoregisterendpoints)](https://www.nuget.org/packages/autoregisterendpoints)
+
 ## Installation
 
 To install the library, use the NuGet Package Manager Console:
