@@ -3,8 +3,6 @@ name: Main
 on:
   push:
     branches: [ main, feature/*, hotfix/* ]
-  pull_request:
-    branches: [ main, feature/*, hotfix/* ]
 
 jobs:
 
