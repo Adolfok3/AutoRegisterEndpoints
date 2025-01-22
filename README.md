@@ -1,6 +1,6 @@
 # Auto Endpoint Registration for .NET Minimal API
 
-This library provides automatic endpoint registration for .NET Minimal API, eliminating the need to manually map endpoints in the `Program.cs` file. By using this library, you can streamline the process of setting up your API endpoints, making your code cleaner and more maintainable.
+This package provides automatic endpoint registration for .NET Minimal API, eliminating the need to manually map endpoints in the `Program.cs` file. By using this library, you can streamline the process of setting up your API endpoints, making your code cleaner and more maintainable.
 
 [![GithubActions](https://github.com/Adolfok3/autoregisterendpoints/actions/workflows/main.yml/badge.svg)](https://github.com/Adolfok3/autoregisterendpoints/actions)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
@@ -9,7 +9,7 @@ This library provides automatic endpoint registration for .NET Minimal API, elim
 
 ## Installation
 
-To install the library, use the NuGet Package Manager Console:
+NuGet Package Manager Console:
 
 ```sh
 Install-Package AutoRegisterEndpoints
@@ -23,7 +23,7 @@ dotnet add package AutoRegisterEndpoints
 
 ## Configuration
 
-To configure the library, follow these steps:
+follow these steps:
 
 1. In your `Program.cs` file, add the following extension method `MapEndpoints` to `WebApplication`:
 
@@ -36,7 +36,7 @@ To configure the library, follow these steps:
     app.Run();
     ```
 
-2. Ensure that your endpoint classes implement the `IEndpoint` interface provided by the library. For example:
+2. Ensure that your endpoint classes implement the `IEndpoint` interface provided by the package. For example:
 
     ```csharp
     public class WeatherForecastEndpoint : IEndpoint
@@ -74,5 +74,3 @@ To configure the library, follow these steps:
       ```
 
 By following these steps, your endpoints will be automatically registered without the need to manually map them in the `Program.cs` file.
-
-
