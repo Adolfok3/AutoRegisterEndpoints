@@ -13,7 +13,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 9.0.x
+        dotnet-version: 10.0.x
     - name: Restore dependencies
       run: dotnet restore --property NuGetAudit=true --property NuGetAuditMode=All --property NuGetAuditLevel=Moderate --property TreatWarningsAsErrors=true
     - name: Build
@@ -27,7 +27,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 9.0.x
+        dotnet-version: 10.0.x
     - name: Restore dependencies
       run: dotnet restore --property NuGetAudit=true --property NuGetAuditMode=All --property NuGetAuditLevel=Moderate --property TreatWarningsAsErrors=true
     - name: Build
@@ -43,7 +43,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 9.0.x
+        dotnet-version: 10.0.x
     - name: Generate coverage report
       run: |
         cd tests/AutoRegisterEndpoints.Tests
